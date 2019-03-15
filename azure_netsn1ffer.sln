@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Azure_NetSn1ffer", "Azure_NetSn1ffer\Azure_NetSn1ffer.vcxproj", "{CD6D87B9-54E8-4495-9B3F-5A1C0264050C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD6D87B9-54E8-4495-9B3F-5A1C0264050C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CD6D87B9-54E8-4495-9B3F-5A1C0264050C}.Debug|ARM.Build.0 = Debug|ARM
+		{CD6D87B9-54E8-4495-9B3F-5A1C0264050C}.Release|ARM.ActiveCfg = Release|ARM
+		{CD6D87B9-54E8-4495-9B3F-5A1C0264050C}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97D8F9F6-0892-440F-B04E-BE673997B849}
+	EndGlobalSection
+EndGlobal
