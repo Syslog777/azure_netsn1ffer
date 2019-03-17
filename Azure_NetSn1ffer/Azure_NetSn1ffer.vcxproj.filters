@@ -14,4 +14,23 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\azure_netsn1ffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\azure_netsn1ffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\applibs_versions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\app_manifest.json" />
+  </ItemGroup>
 </Project>

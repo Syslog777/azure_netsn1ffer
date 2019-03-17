@@ -27,8 +27,8 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
-    <TargetSysroot>1</TargetSysroot>
     <ConfigurationType>StaticLibrary</ConfigurationType>
+    <TargetSysroot>1+Beta1902</TargetSysroot>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
@@ -40,16 +40,19 @@
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
-
   <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalOptions>-Werror=implicit-function-declaration %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
   </ItemDefinitionGroup>
-
   <ItemGroup>
-    <ClCompile Include="Azure_NetSn1ffer.c" />
-    <ClInclude Include="Inc\Public\Azure_NetSn1ffer.h" />
+    <ClCompile Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\azure_netsn1ffer.cpp" />
+    <ClCompile Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\main.cpp" />
+    <ClInclude Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\applibs_versions.h" />
+    <ClInclude Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\azure_netsn1ffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\app_manifest.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
