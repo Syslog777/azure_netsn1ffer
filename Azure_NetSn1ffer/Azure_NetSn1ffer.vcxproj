@@ -50,6 +50,7 @@
     <ClCompile Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\main.cpp" />
     <ClInclude Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\applibs_versions.h" />
     <ClInclude Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\azure_netsn1ffer.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\repos\AzureNetSn1ffer\AzureNetSn1ffer\app_manifest.json" />
